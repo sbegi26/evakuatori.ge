@@ -1,0 +1,174 @@
+body{
+    background-image: url(../photos/evacuator@2x.png);
+}
+
+header a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.active{
+    background-color: rgb(0, 82, 213);
+    padding: 3px;
+    border-radius: 10px;
+}
+
+header nav{
+    width: 40%;
+    margin: auto;
+    background-color: red;
+    border-radius: 25px;
+}
+
+header ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20%;
+    list-style: none;
+    padding: 15px;
+}
+
+header li{
+    width: fit-content;
+}
+
+header li:hover{
+    background-color: yellowgreen;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.photoContainer{
+    width: 80%;
+    /* background-color: yellow; */
+    margin:100px auto; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 10px; */
+    padding: 10px;
+}
+
+.photoContainer img{
+    margin-left: 50px;
+    width: 80%;
+    height: 95%;
+    border: 3px dashed darkblue;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.photoContainer img:hover{
+    transform: scale(1.2);
+    border: 3px solid darkblue;
+}
+
+.photoContainer div{
+    width: 100%;
+}
+/* 
+.hContainer{
+    margin: auto;
+} */
+
+/* .h1andPhotoContainer{
+    display: block;
+    margin: auto;
+} */
+
+.hContainer h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(57, 24, 186);
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.hContainer{
+    background-color: yellowgreen;
+    width: 40%;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.mainP {
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    width: 80%;
+    margin:50px auto;
+    border-radius: 15px;
+    padding: 20px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.mainP span:hover{
+    color: chartreuse;
+}
+/* 
+footer{
+    display: flex;
+} */
+
+footer{
+    background-color: yellowgreen;
+    margin-top: 200px;
+    /* position: relative;  */
+    /* width: 100%; */
+}
+
+.footerContainer h2{
+    /* text-align: center; */
+}
+
+.footerContainer{
+    display: flex;
+    /* justify-content: center; */
+    
+}
+
+.footerContainer div{
+    margin-left: 200px;
+}
+
+@font-face {
+    font-family: academiuri;
+    src: url(../fonts/academiury-itv_bold_italic_2.ttf);
+}
+
+/*contac.html*/
+
+.links  {
+    /* background-color: burlywood; */
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin:100px auto; 
+}
+
+.links img{
+    width: 100px;
+    height:100px;
+    
+}
+
+.links div img{
+    display: flex;
+    margin: auto;
+}
+
+.links div p{
+    text-align: center;
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.links div a{
+    text-decoration: none;
+    color: black;
+}
